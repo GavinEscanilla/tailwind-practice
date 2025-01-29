@@ -8,17 +8,31 @@
 </head>
 
 
-<body class="block h-screen bg-gray-400 m-0">
+<body class="flex flex-col h-full bg-gray-400 m-0">
     <nav class="flex fixed w-full h-16 justify-center items-center bg-gray-300 top-0 shadow-2xl z-50 left-0 px-5">
         <ul class="flex space-x-6 text-2xl">
-            <li class="hover:text-gray-700 cursor-pointer">Home</li><li class="hover:text-gray-700 cursor-pointer">About</li>
-            <li class="hover:text-gray-700 cursor-pointer">Lists of IEMS</li>
-            <li class="hover:text-gray-700 cursor-pointer">Contact</li>
+            <li id="home"class="hover:text-gray-700 cursor-pointer"><a href="#Home">Home</a></li>
+            <li id="about"class="hover:text-gray-700 cursor-pointer"><a href="#About">About</a></li>
+            <li id="lists"class="hover:text-gray-700 cursor-pointer">Lists of IEMS</li>
+            <li id="contact"class="hover:text-gray-700 cursor-pointer">Contact</li>
         </ul>
     </nav>
-    <div  id="About" class="border-2 h-screen border-blue-600 flex flex-col flex-wrap mt-16">
-        <h1 class="text-center text-6xl font-serif pt-1">IEMS</h1>
-        <div> </div>
+    <div  id="Home" class="border-2 h-screen border-blue-600 flex flex-col justify-center flex-wrap mt-16">
+        <h1 class="text-center text-6xl font-serif pt-1">In Ear Monitors</h1>
+       <p class="text-center text-2xl font-serif pt-1">(IEMS)</p>
+    </div>
+    <div id="About"class="border-2 h-screen border-red-600 flex">
+<div id="about-info"class="border-2 border-yellow-600 h-screen w-1/2">
+    <h1 class="text-center text-6xl font-serif pt-20 ">What are IEMS?</h1>
+    <p class="text-center text-2xl font-serif pt-1">IEMs (In-Ear Monitors) are high-quality earbuds used by musicians, audio engineers, and audiophiles for precise sound monitoring. Unlike regular earbuds, IEMs fit deeper in the ear canal, providing better sound isolation and clearer audio details.</p>
+    <h3 class="text-center text-4xl font-serif pt-1">Types of IEMs:</h3>
+<ul class="list-none space-y-2">
+    <li class=" text-center before:content-['🔥'] before:mr-2 text-2xl font-serif pt-1"><span class="font-bold">Universal IEMs </span> – Fit most ears and come with different ear tips (foam/silicone).</li>
+    <li class=" text-center before:content-['🔥'] before:mr-2 text-2xl font-serif pt-1"><span class="font-bold">Custom IEMs</span> – Molded to fit an individual's ears for maximum comfort and isolation.</li>
+    
+</ul>
+</div>
+<div id="abourt-img"class=""></div>
     </div>
     <script src="index.js"></script>
 </body>
