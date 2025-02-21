@@ -1,6 +1,8 @@
 {
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 1000,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.wordWrap": "on"
 }

@@ -6,125 +6,125 @@
     <title>Tailwind practice</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="flex flex-col h-full bg-gray-400 m-0">
+  <body class="m-0 flex h-full flex-col bg-gray-400">
     <nav
-      class="flex fixed w-full h-16 justify-center items-center bg-gray-300 top-0 shadow-2xl z-50 left-0 px-5"
+      class="fixed left-0 top-0 z-50 flex h-16 w-full items-center justify-center bg-gray-300 px-5 shadow-2xl"
     >
       <ul class="flex space-x-6 text-2xl">
-        <li id="home" class="hover:text-gray-700 cursor-pointer">
+        <li id="home" class="cursor-pointer hover:text-gray-700">
           <a href="#Home">Home</a>
         </li>
-        <li id="about" class="hover:text-gray-700 cursor-pointer">
+        <li id="about" class="cursor-pointer hover:text-gray-700">
           <a href="#About">About</a>
         </li>
-        <li id="lists" class="hover:text-gray-700 cursor-pointer">
+        <li id="lists" class="cursor-pointer hover:text-gray-700">
           Lists of IEMS
         </li>
-        <li id="contact" class="hover:text-gray-700 cursor-pointer">Contact</li>
+        <li id="contact" class="cursor-pointer hover:text-gray-700">Contact</li>
       </ul>
     </nav>
     <div
       id="Home"
-      class="border-2 h-screen border-blue-600 flex flex-col justify-center flex-wrap mt-16"
+      class="mt-16 flex h-screen flex-col flex-wrap justify-center border-2 border-blue-600"
     >
-      <h1 class="text-center text-6xl font-serif pt-1">In Ear Monitors</h1>
-      <p class="text-center text-2xl font-serif pt-1">(IEMS)</p>
+      <h1 class="pt-1 text-center font-serif text-6xl">In Ear Monitors</h1>
+      <p class="pt-1 text-center font-serif text-2xl">(IEMS)</p>
     </div>
-    <div id="About" class="border-2 h-screen border-red-600 flex">
-      <div id="about-info" class="border-2 border-yellow-600 h-screen w-1/2">
-        <h1 class="text-center text-6xl font-serif pt-20">What are IEMS?</h1>
-        <p class="text-center text-2xl font-serif pt-1">
+    <div id="About" class="flex h-screen border-2 border-red-600">
+      <div id="about-info" class="h-screen w-1/2 border-2 border-yellow-600">
+        <h1 class="pt-20 text-center font-serif text-6xl">What are IEMS?</h1>
+        <p class="pt-1 text-center font-serif text-2xl">
           IEMs (In-Ear Monitors) are high-quality earbuds used by musicians,
           audio engineers, and audiophiles for precise sound monitoring. Unlike
           regular earbuds, IEMs fit deeper in the ear canal, providing better
           sound isolation and clearer audio details.
         </p>
-        <h3 class="text-center text-4xl font-serif pt-1">Types of IEMs:</h3>
-        <ul class="list-none space-y-2">
+        <h3 class="pt-1 text-center font-serif text-4xl">Types of IEMs:</h3>
+        <ul class="flex w-fit list-none flex-col space-y-2 border-2">
           <li
-            class="text-center before:content-['🔥'] before:mr-2 text-2xl font-serif pt-1"
+            class="flex items-center pt-1 font-serif text-2xl before:mr-2 before:content-['🔥']"
           >
             <span class="font-bold">Universal IEMs </span> – Fit most ears and
             come with different ear tips (foam/silicone).
           </li>
           <li
-            class="text-center before:content-['🔥'] before:mr-2 text-2xl font-serif pt-1"
+            class="flex items-center pt-1 font-serif text-2xl before:mr-2 before:content-['🔥']"
           >
             <span class="font-bold">Custom IEMs</span> – Molded to fit an
             individual's ears for maximum comfort and isolation.
           </li>
         </ul>
-        <h3 class="text-3xl font-serif pt-5 pl-8">
+        <h3 class="pl-8 pt-5 font-serif text-3xl">
           IEMs come in a wide range of price points, depending on sound quality,
           driver technology, and features. Here's a breakdown:
         </h3>
         <ul class="list-none space-y-2">
           <li
-            class="text-center before:content-['💲'] before:mr-2 text-3xl font-serif pt-1"
+            class="pt-1 text-center font-serif text-3xl before:mr-2 before:content-['💲']"
           >
             <span class="font-bold">Budget IEMs</span> ($20 to $100)
           </li>
           <li
-            class="text-center before:content-['🔍'] before:mr-2 text-xl font-serif pt-1"
+            class="pt-1 text-center font-serif text-xl before:mr-2 before:content-['🔍']"
           >
             <span class="font-bold">Examples:</span> Moondrop Chu, KZ ZSN Pro,
             TinHiFi T3
           </li>
           <li
-            class="text-center before:content-['⚙️'] before:mr-2 text-xl font-serif pt-1"
+            class="pt-1 text-center font-serif text-xl before:mr-2 before:content-['⚙️']"
           >
             <span class="font-bold">Features:</span> Decent sound quality,
             single dynamic or balanced armature drivers, plastic or metal build.
           </li>
           <li
-            class="text-center before:content-['🏆'] before:mr-2 text-xl font-serif pt-1"
+            class="pt-1 text-center font-serif text-xl before:mr-2 before:content-['🏆']"
           >
             <span class="font-bold">Best For:</span> Beginners, casual
             listeners, budget audiophiles.
           </li>
           <li
-            class="text-center before:content-['💲💲'] before:mr-2 text-3xl font-serif pt-1"
+            class="pt-1 text-center font-serif text-3xl before:mr-2 before:content-['💲💲']"
           >
             <span class="font-bold">Budget IEMs</span> ($100 to $500)
           </li>
           <li
-            class="text-center before:content-['🔍'] before:mr-2 text-xl font-serif pt-1"
+            class="pt-1 text-center font-serif text-xl before:mr-2 before:content-['🔍']"
           >
             <span class="font-bold">Examples:</span> Moondrop Blessing 3,
             ThieAudio Legacy 5, 7Hz Timeless
           </li>
           <li
-            class="text-center before:content-['⚙️'] before:mr-2 text-xl font-serif pt-1"
+            class="pt-1 text-center font-serif text-xl before:mr-2 before:content-['⚙️']"
           >
             <span class="font-bold">Features:</span> Hybrid/multiple drivers,
             better tuning, detachable cables, improved soundstage.
           </li>
           <li
-            class="text-center before:content-['🏆'] before:mr-2 text-xl font-serif pt-1"
+            class="pt-1 text-center font-serif text-xl before:mr-2 before:content-['🏆']"
           >
             <span class="font-bold">Best For:</span>Audiophiles, musicians,
             serious listeners.
           </li>
           <li
-            class="text-center before:content-['💲💲💲'] before:mr-2 text-3xl font-serif pt-1"
+            class="pt-1 text-center font-serif text-3xl before:mr-2 before:content-['💲💲💲']"
           >
             <span class="font-bold">Budget IEMs</span> ($500 to $2,000)
           </li>
           <li
-            class="text-center before:content-['🔍'] before:mr-2 text-xl font-serif pt-1"
+            class="pt-1 text-center font-serif text-xl before:mr-2 before:content-['🔍']"
           >
             <span class="font-bold">Examples:</span>64 Audio U12t, Campfire
             Andromeda, Empire Ears Odin
           </li>
           <li
-            class="text-center before:content-['⚙️'] before:mr-2 text-xl font-serif pt-1"
+            class="pt-1 text-center font-serif text-xl before:mr-2 before:content-['⚙️']"
           >
             <span class="font-bold">Features:</span> Custom-molded options,
             multiple drivers (BA, DD, EST), premium materials, top-tier sound
             quality.
           </li>
           <li
-            class="text-center before:content-['🏆'] before:mr-2 text-xl font-serif pt-1"
+            class="pt-1 text-center font-serif text-xl before:mr-2 before:content-['🏆']"
           >
             <span class="font-bold">Best For:</span> Professional musicians,
             studio engineers, high-end audiophiles.
