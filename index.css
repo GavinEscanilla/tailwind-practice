@@ -1,0 +1,36 @@
+
+::-webkit-scrollbar {
+  width: 12px; /* Adjust width */
+  border-radius: 999px; /* Fully rounded */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e2e; /* Dark background */
+  border-radius: 999px; /* Fully rounded track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #ff6b6b, #6b6bff); /* Gradient thumb */
+  border-radius: 999px; /* Fully rounded thumb */
+  border: 3px solid #1e1e2e; /* Creates spacing effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #ff4d4d, #4d4dff); /* Darker on hover */
+}
+
+
+::-webkit-scrollbar-horizontal {
+  height: 10px;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  border-radius: 999px;
+}
+
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color:rgba(122, 122, 160, 0.59) #1e1e2e;
+}

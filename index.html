@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind practice</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body class="m-0 flex h-full flex-col bg-gray-400">
     <nav
@@ -25,18 +26,18 @@
     </nav>
     <div
       id="Home"
-      class="mt-16 flex h-screen flex-col flex-wrap justify-center border-2 border-blue-600"
+      class="mt-16 flex h-screen flex-col flex-wrap justify-center "
     >
       <h1 class="pt-1 text-center font-serif text-6xl">In Ear Monitors</h1>
       <p class="pt-1 text-center font-serif text-2xl">(IEMS)</p>
     </div>
     <div
       id="About"
-      class="min-h-screen-h-screen box-border flex w-full flex-col break-words border-2 border-red-600 md:flex-row"
+      class="min-h-screen-h-screen box-border flex w-full flex-col break-words   md:flex-row"
     >
       <div
         id="about-info"
-        class="h-screen w-1/2 w-full overflow-y-scroll border-2 border-yellow-600 lg:w-1/2"
+        class="h-screen w-1/2 w-full overflow-y-scroll   lg:w-1/2"
       >
         <h1 class="pt-20 text-center font-serif text-6xl">What are IEMS?</h1>
         <p class="pt-1 text-center font-serif text-2xl">
@@ -139,11 +140,27 @@
       </div>
       <div
         id="about-img"
-        class="h-screen w-full border-2 border-pink-600 md:h-screen lg:w-1/2 flex flex-col items-center justify-center"
+        class="h-screen w-full   md:h-screen lg:w-1/2 flex flex-col items-center justify-center"
       >
         <img src=" " class=" w-96" alt="" id ='img-src' />
         <h3 id="img-name"></h3>
       </div>
+    </div>
+    <div id="store" class="min-h-screen flex-wrap border-2 border-green-600">
+ <div id="select">
+<label for="product">Sort by:</label>
+<select name="product" id="product">
+<option value="alphabetical">Alphabetical</option>
+<option value="reverse-alphabetical">Reverse alphabetical</option>
+<option value="Lowest price">Lowest price</option>  
+<option value="Highest price">Highest price</option>
+</select>
+ </div>
+ <div id="container" class="flex flex-wrap justify-center gap-8">
+
+
+
+ </div>
     </div>
     <script type="module" src="index.js"></script>
   </body>
