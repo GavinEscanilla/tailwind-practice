@@ -30,7 +30,7 @@ const render = ( list ) => {
         card.innerHTML = `
         <img src="${item.img}" alt="" class="w-80">
         <a href="${item.link}">${item.name}</a>
-        <p>${item.price}</p>
+        <p>$${item.price}</p>
         <p>${item.bestFor}</p>
         <p>${item.features.join(", ")}</p>
         `;
